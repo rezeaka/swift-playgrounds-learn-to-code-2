@@ -9,7 +9,6 @@ var gemCounter = 0
 var switchCounter = 0
 
 world.place(character, facing: .south,  atColumn: 1, row: 2)
-
 world.place(greenPortal, atStartColumn: 1, startRow: 2, atEndColumn: 5, endRow: 3)
 world.place(bluePortal, atStartColumn: 1, startRow: 0, atEndColumn: 1, endRow: 6)
 
